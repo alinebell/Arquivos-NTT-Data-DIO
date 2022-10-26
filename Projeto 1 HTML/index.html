@@ -4,16 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doesafio1</title>
+    <title>Primeira página</title>
 </head>
 <body>
+    <h1>Algumas tags básicas de uma página HTML</h1>
+    <p>Menu</p>
+    <hr>
 
-    <nav>
-        <a href="page2.html">Hello World – Olá Mundo em Java</a>
-    </nav>
+    <ul>
+        <li><a href="#tags">O que são tags HTML</a></li>
+        <li><a href="#ancora">Ancoragem</a></li>
+        <li><a href="#fontes">Fontes</a></li>
+    </ul>
+    
+    <h2 id="tags">O que são as Tags HTML</h2>
+    <p>
+        O que é HTML e suas tags?
+O HTML existe desde 1991 e atualmente está na versão 5, que veio recheada de recursos e funcionalidades que trazem melhorias para o desenvolvimento web, sua responsabilidade principal é demarcar a estrutura de uma página da web. Essa estrutura do HTML é formada por um conjunto de elementos, ou seja, os hipertextos, que se conectam entre si formando a página. Os elementos HTML ou também chamados de tags HTML, são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre outros.
 
-    <p>Fonte:<a href="https://tecgirl.com.br/a-maldicao-hello-world-ola-mundo/">TecGirl</a></p>
+Dessa forma, para que um documento seja interpretado pelo navegador, é necessário que o arquivo tenha a extensão .html e a partir disso, poderá ser exibido por qualquer navegador web.
+
+    </p>
+
+    <h2 id="ancora">O que é ancoragem</h2>
+    <p>
+        São links criados em uma página que levam para uma parte específica do conteúdo da mesma. São muito utilizadas quando se possuí um conteúdo muito extenso e se deseja criar atalhos para pontos específicos.
+
+        Para criar uma âncora HTML você deve adicionar uma tag <a> com o atributo name. O conteúdo deste atributo é a sua âncora. Para acessá-lo você deverá criar um link onde o atributo href estará preenchido com #nome-da-ancora.
+        
+        Exemplo:
+        <a name=”topo”></a>
+        <a href=”#topo”>Topo</a> 
+
+        Para que suas âncoras HTML sejam indexadas corretamente pelo Google e sejam exibidas na snippet é preciso seguir alguns passos.
+        Adicione uma tag H2 no local desejado. Preencha-a com o texto que deseja exibir na página e com sua tag <a> e o atributo name devidamente preenchido.
+
+            Exemplo:
+            <h2><a name=”estrategiasdeseo”></a>Estratégias de SEO</h2>
+        Para fazer a chamada da âncora HTML crie uma tag <a> com o parâmetro href preenchido com o nome da âncora e o texto que deseja exibir no Google.
+
+Exemplo:
+<a href=”#estrategiasdeseo”>Estratégias de SEO</a>
+    </p>
+
+    <h2 id="fontes">Fontes: </h2>
+    <p>
+        <a>https://www.danielimamura.com.br/otimizacao-de-ancoras-html/#:~:text=O%20que%20s%C3%A3o%20%C3%82ncoras%20HTML,a%3E%20com%20o%20atributo%20name.</a>
+        <a>https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica?gclid=Cj0KCQjwkt6aBhDKARIsAAyeLJ2rcqRkuDWRKcDw1qJhX_7hkWGXUU5Hg38khCsy--QGhLqnb0-fdpsaAvyHEALw_wcB</a>
+        
+    </p>
     
 </body>
-<footer>Aline Beltrão 2022</footer>
+<footer>Aline Beltrão 2022 - para DIO+NTT data</footer>
 </html>
