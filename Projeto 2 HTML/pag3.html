@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica dor nas costas</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="template.html">Página Principal</a></li>
+                <li><a href="pag2.html">Sobre a Clínica</a></li>
+                <li><a href="#">Horário de Atendimento</a></li>
+                <li><a href="pag4.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="img/178542233487044495_n-900x557.jpg">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h1>Horário de atendimento</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora unde, harum labore dolore dolorum perspiciatis aperiam aliquam tempore assumenda et quasi quia modi, doloribus illo laborum vel cupiditate fuga quae.</p>
+                <table id="curso" border="1">
+                    <tr>
+                        <th>Especialidade</th>
+                        <th>Dias</th>
+                        <th>Horários</th>
+                        <th>Preços</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td>Ortopedista</td>
+                        <td>Segunda e Quarta</td>
+                        <td>08 as 11h</td>
+                        <td>R$200,00</td>
+                    </tr>
+                    <tr>
+                        <td>Fisioterapeuta</td>
+                        <td>Terça, Quarta e Quinta</td>
+                        <td>8h as 11 e das 13 as 16h</td>
+                        <td>R$300,00</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Quiropraxia</td>
+                        <td>Terça e Sexta</td>
+                        <td>13 as 16h</td>
+                        <td>R$400,00</td>
+                    </tr>
+                    <tr>
+                        <td>Geriatria</td>
+                        <td>Terça e Sexta</td>
+                        <td>13 as 16h</td>
+                        <td>R$500,00</td>
+                    </tr>
+                </tbody>
+                    
+                </table>
+                
+                
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                Aline Beltrão 2022 - para DIO+NTT data
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function(){
+        //troca fundo de linhas pares
+        $('table#curso tbody tr:even').css('background','#FFFF99');
+        //troca fundo de linhas ímpares
+        $('table#curso tbody tr:odd').css('background','#FFFFCC');
+        });
+        </script>
+</body>
+</html>
